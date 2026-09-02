@@ -53,13 +53,14 @@ header nav a:hover{
 
 .btn{
     padding: 12px 20px;
-    background:rgb(5, 84, 30);
+    background:rgb(15, 7, 105);
     color:white;
     border-radius:20px;
     
 }
 .btn:hover{
-    color:rgb(97, 11, 11);
+   scale:1.1;
+   transition:.4s;
 }
 
 
