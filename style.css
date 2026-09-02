@@ -3,6 +3,9 @@
     margin:0;
     box-sizing:border-box;
 }
+a{
+    text-decoration: none;
+}
 .container{
     max-width:1400px;
     margin:0 auto;
@@ -17,13 +20,22 @@ header{
     top: 0;
     left:0;
     right:0;
-    height:90px;
-
+    height: 90px;
+}
+header .logo{
+color:white;
+font-size:30px;
 }
 
 
+header .container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
  .home{
-    color:white;
+    color:rgb(21, 183, 175);
     background:url(img/b.png);
     height: 100vh;
     background-size: cover;
