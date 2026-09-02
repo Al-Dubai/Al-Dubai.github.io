@@ -11,7 +11,7 @@ a{
 .container {
     max-width:1400px;
     margin:0 auto;
-    background:rgb(21, 183, 175);
+    background:transparent;
 
 }
 h1,h2,h3,h4,h5,h6 .google-sans{
@@ -38,10 +38,28 @@ display:flex;
 align-items:center;
 gap:5px;
 }
+ 
+header nav{
+    display: flex;
+    gap: 40px;
+}
+header nav a{
+color:white;
+}
+header nav a:hover{
+    color:black;
+    transition:0.4s;
+}
 
-header .nav{
-    display:flex;
-    gap:50px;
+.btn{
+    padding: 12px 20px;
+    background:rgb(5, 84, 30);
+    color:white;
+    border-radius:20px;
+    
+}
+.btn:hover{
+    color:rgb(97, 11, 11);
 }
 
 
@@ -50,7 +68,6 @@ header .container{
     align-items:center;
     justify-content:space-between;
 }
-
 
  .home{
     color:rgb(21, 183, 175);
