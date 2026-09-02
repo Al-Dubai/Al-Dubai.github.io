@@ -3,12 +3,27 @@
     margin:0;
     box-sizing:border-box;
 }
+.container{
+    max-width:1400px;
+    margin:0 auto;
+    background:rgb(21, 183, 175);
 
+}
 
+/* start header*/
+header{
+    background:transparent;
+    position:fixed;
+    top: 0;
+    left:0;
+    right:0;
+    height:90px;
 
+}
 
 
  .home{
+    color:white;
     background:url(img/b.png);
     height: 100vh;
     background-size: cover;
