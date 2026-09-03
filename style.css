@@ -44,10 +44,10 @@ header nav{
     gap: 40px;
 }
 header nav a{
-color:white;
+color:rgb(234, 20, 20);
 }
 header nav a:hover{
-    color:black;
+    color:rgb(247, 4, 4);
     transition:0.4s;
 }
 
