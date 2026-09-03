@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6 .google-sans{
 }
 
 html {
-    font-family: "Inter", sans-serif
+    font-family: "Inter", sans-serif;
 }
 
 /* start header*/
@@ -47,7 +47,7 @@ header nav a{
 color:rgb(234, 20, 20);
 }
 header nav a:hover{
-    color:rgb(247, 4, 4);
+    color:white;
     transition:0.4s;
 }
 
@@ -68,6 +68,13 @@ header .container{
     display:flex;
     align-items:center;
     justify-content:space-between;
+}
+/*section8*/
+section .div{
+    display:flex;
+    align-items: ;
+
+
 }
 
  .home{
