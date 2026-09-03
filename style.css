@@ -47,7 +47,7 @@ header nav a{
 color:rgb(234, 20, 20);
 }
 header nav a:hover{
-    color:white;
+    color:rgb(117, 114, 114);
     transition:0.4s;
 }
 
@@ -69,10 +69,13 @@ header .container{
     align-items:center;
     justify-content:space-between;
 }
-/*section8*/
-section .div{
-    display:flex;
-    align-items: ;
+/* start section*/
+.image{
+    position:fixed;
+    
+
+
+    border-image:90px;
 
 
 }
@@ -83,5 +86,13 @@ section .div{
     height: 100vh;
     background-size: cover;
     background-position:center;
+ }
+ table, th, td {
+     display:flexbox;
+    border: 2px solid green;
+    border-collapse:collapse;
+    justify-self:center;
+    border-radius: 3px;
+    
  }
  
