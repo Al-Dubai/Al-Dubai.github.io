@@ -70,15 +70,6 @@ header .container{
     justify-content:space-between;
 }
 /* start section*/
-.image{
-    position:fixed;
-    
-
-
-    border-image:90px;
-
-
-}
 
  .home{
     color:rgb(21, 183, 175);
@@ -92,7 +83,8 @@ header .container{
     border: 2px solid green;
     border-collapse:collapse;
     justify-self:center;
-    border-radius: 3px;
+    
+    margin-top: 5%;
     
  }
  
