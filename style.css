@@ -50,6 +50,11 @@ header nav a:hover{
     color:rgb(117, 114, 114);
     transition:0.4s;
 }
+.image{
+position: absolute;
+right:0;
+bottom:0;
+}
 
 .btn{
     padding: 12px 20px;
@@ -83,8 +88,8 @@ header .container{
     border: 2px solid green;
     border-collapse:collapse;
     justify-self:center;
-    
     margin-top: 5%;
+    background-color:gray;
     
  }
  
