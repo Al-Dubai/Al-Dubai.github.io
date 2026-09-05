@@ -10,7 +10,7 @@ a {
     text-decoration: none;
 }
 
-.container {
+. header.container {
     max-width: 1400px;
     margin: 0 auto;
     background: transparent;
@@ -62,22 +62,10 @@ header nav a:hover {
     transition: 0.4s;
 }
 
-.image {
-    position: absolute;
-    right:0;
-    bottom: 0;
-    margin-bottom:10%;
-}
-.text{
-    position:fixed;
-    right: 300px;
-    margin-top: 20%;
-    color:white;
- max-width:250px;
 
 
-}
 
+/*bottom download resume*/
 .btn {
     padding: 12px 20px;
     background: rgb(15, 7, 105);
@@ -107,7 +95,64 @@ header .container {
     background-size: cover;
     background-position: center;
 }
+/*image and the text of the main page*/
+.home .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:100%;
+}
+.home .image {
+    width:50%;
+    position: relative;
+}
+.home .text{
+   width:45%;
+}
+.home .text h4{
+    color:gold;
+    font-size: 50px;
+    margin-bottom:10px;
+}
+.home .text h1{
+    color:white;
+    font-size: 75px;
+    text-transform: capitalize;
+}
+.home .text h2{
+    color:rgb(218, 189, 189);
+    font-size: 45px;
+}
+.home .text p{
+    color:white;
+    margin-bottom:30px;
+}
 
+
+
+
+
+.home .image .person{
+    border-radius: 50%;
+}
+.home .image .sm-icon{
+    position:absolute;
+    width: 50px;
+    background-color:white;
+    border-radius: 20px;
+
+    
+}
+.home .image .sm-icon.img1{
+top:0%;
+left:0%;
+}
+.home .image .sm-icon.img2{
+bottom:0%;
+left:0%;
+}
+
+/* dashbord*/
 table,
 th,
 td {
