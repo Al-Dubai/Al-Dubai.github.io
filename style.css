@@ -95,80 +95,102 @@ header .container {
     background-size: cover;
     background-position: center;
 }
+
 /*image and the text of the main page*/
 .home .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height:100%;
+    height: 100%;
 }
+
 .home .image {
-    width:50%;
+    width: 50%;
     position: relative;
     margin-left: 400px;
 }
-.home .text{
-   width:45%;
+
+.home .text {
+    width: 45%;
+
 }
-.home .text h4{
-    color:gold;
+
+.home .text h4 {
+    color: gold;
     font-size: 50px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
-.home .text h1{
-    color:white;
-    font-size: 75px;
+
+.home .text h1 {
+    color: white;
+    font-size: 70px;
     text-transform: capitalize;
 }
-.home .text h2{
-    color:rgb(218, 189, 189);
+
+.home .text h2 {
+    color: rgb(218, 189, 189);
     font-size: 45px;
 }
-.home .text p{
-    color:white;
-    margin-bottom:30px;
+
+.home .text p {
+    color: white;
+    margin-bottom: 30px;
 }
 
-
-
-
-
-.home .image .person{
+.home .image .person {
     border-radius: 45%;
-width: 380px;
+    width: 380px;
 }
-.home .image .sm-icon{
-    position:absolute;
+
+.home .image .sm-icon {
+    position: absolute;
     width: 50px;
-    background-color:white;
+    background-color: white;
     border-radius: 20px;
     animation: moveLeftRight 3s ease-in-out infinite;
 
-    
+
 }
-.home .image .sm-icon.img1{
-top:0%;
-left:0%;
-margin-left:35px;
+
+.home .image .sm-icon.img1 {
+    top: 0%;
+    left: 0%;
+    margin-left: 35px;
 }
-.home .image .sm-icon.img2{
-bottom:0%;
-left:0%;
-margin-left: 35px;
+
+.home .image .sm-icon.img2 {
+    bottom: 0%;
+    left: 0%;
+    margin-left: 35px;
 }
-@keyframes moveLeftRight{
-0% {
-    transform: translatex(0); /*start*/
+
+@keyframes moveLeftRight {
+    0% {
+        transform: translatex(0);
+        /*start*/
+    }
+
+    50% {
+        transform: translateX(-20px);
+        /*left*/
+    }
+
+    100% {
+        transform: translateX(0)
+            /*back to the original place*/
+    }
 }
-50%{
-    transform: translateX(-20px);/*left*/
-}
-100%{
-    transform: translateX(0)/*back to the original place*/
-}
-} 
 
 /* dashbord*/
+.dashboard {
+    color: rgb(21, 183, 175);
+    background: url(img/dash.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
 table,
 th,
 td {
@@ -180,17 +202,56 @@ td {
     color: rgb(244, 220, 4);
     padding: 10px 50px;
 }
-.home .hz{
+
+.dashboard .hz {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top:150px;
-    
+    margin-top: 150px;
+
 }
-.home .dashboardText{
+
+.dashboard .dashboardText {
     display: flex;
     align-items: center;
-    color:rgb(255, 251, 225);
+    color: rgb(72, 186, 34);
     margin-left: 40%;
-    margin-top:90px
+    margin-top: 90px
+}
+
+/*why it start from here*/
+.why-it {
+    color: rgb(21, 183, 175);
+    background: url(img/IT.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+/*here start about / who am i */
+.about {
+    color: rgb(21, 183, 175);
+    background: url(img/who\ am\ i.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+/* here start blog */
+.blog {
+    color: rgb(21, 183, 175);
+    background: url(img/blogn.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
