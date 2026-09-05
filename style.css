@@ -105,6 +105,7 @@ header .container {
 .home .image {
     width:50%;
     position: relative;
+    margin-left: 400px;
 }
 .home .text{
    width:45%;
@@ -172,10 +173,24 @@ table,
 th,
 td {
     display: flexbox;
-    border: 2px solid rgb(7, 7, 7);
+    border: 2px solid rgb(192, 189, 189);
     border-collapse: collapse;
     justify-self: center;
     margin-top: 5%;
-    color: gold;
-    padding: 8px 10px;
+    color: rgb(244, 220, 4);
+    padding: 10px 50px;
+}
+.home .hz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:150px;
+    
+}
+.home .dashboardText{
+    display: flex;
+    align-items: center;
+    color:rgb(255, 251, 225);
+    margin-left: 40%;
+    margin-top:90px
 }
