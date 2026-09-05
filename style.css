@@ -51,10 +51,12 @@ header .logo {
 header nav {
     display: flex;
     gap: 40px;
+    font-size: 25px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 9);
 }
 
 header nav a {
-    color: rgb(234, 20, 20);
+    color: gold;
 }
 
 header nav a:hover {
@@ -194,13 +196,14 @@ header .container {
 table,
 th,
 td {
-    display: flexbox;
     border: 2px solid rgb(192, 189, 189);
     border-collapse: collapse;
     justify-self: center;
     margin-top: 5%;
-    color: rgb(244, 220, 4);
+    margin-bottom: 5%;
+    color: rgb(190, 176, 49);
     padding: 10px 50px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 9);
 }
 
 .dashboard .hz {
@@ -214,9 +217,10 @@ td {
 .dashboard .dashboardText {
     display: flex;
     align-items: center;
-    color: rgb(72, 186, 34);
+    color: rgb(38, 25, 159);
     margin-left: 40%;
-    margin-top: 90px
+    margin-top: 90px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 9);
 }
 
 /*why it start from here*/
@@ -239,6 +243,29 @@ td {
     background-size: cover;
     background-position: center;
 }
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    margin: 0;
+}
+.about .text h3{
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    color:rgb(199, 146, 248);
+    font-size: 30px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 9);
+}
+.about .text p{
+    color:white;
+    width: 800px;
+    font-size: 35px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 9);
+}
+
+
 
 
 
