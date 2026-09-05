@@ -10,7 +10,7 @@ a {
     text-decoration: none;
 }
 
-. header.container {
+.header.container {
     max-width: 1400px;
     margin: 0 auto;
     background: transparent;
@@ -133,24 +133,39 @@ header .container {
 
 
 .home .image .person{
-    border-radius: 50%;
+    border-radius: 45%;
+width: 380px;
 }
 .home .image .sm-icon{
     position:absolute;
     width: 50px;
     background-color:white;
     border-radius: 20px;
+    animation: moveLeftRight 3s ease-in-out infinite;
 
     
 }
 .home .image .sm-icon.img1{
 top:0%;
 left:0%;
+margin-left:35px;
 }
 .home .image .sm-icon.img2{
 bottom:0%;
 left:0%;
+margin-left: 35px;
 }
+@keyframes moveLeftRight{
+0% {
+    transform: translatex(0); /*start*/
+}
+50%{
+    transform: translateX(-20px);/*left*/
+}
+100%{
+    transform: translateX(0)/*back to the original place*/
+}
+} 
 
 /* dashbord*/
 table,
